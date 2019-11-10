@@ -1,6 +1,6 @@
 <h1>Web-Design-Challenge</h1>
 <ol>
-    <li><h2>Data Source</h2></li>
+    <h2><li>Data Source</li></h2>
     <ul>
         <li>Data was taken from the Weatherpy homework and can be found in the 'Python-api-Challenge' repository.</li>
             <ul>
