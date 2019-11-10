@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href=style.css>
+    <title>Latitude vs. Max Temperature</title>
+
+  </head>
+
+  <header>
+        <div class= "container">
+            <a href = "Main.html" title = "Home"><h1 class="logo">Lattitude</h1></a>
+        </br>
+            <nav>
+                <ul>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Plots <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href = "Humidity.html">Humidity</a></li>
+                            <li><a href = "Cloudiness.html">Cloudiness</a></li>
+                            <li><a href = "Windspeed.html">Windspeed</a></li>
+                            <li><a href = "Main.html" >Home</a></li>
+                        </ul>
+                    <li><a href="Comparison.html">Comparison</a></li>
+                    <li><a href="Data.html">Data</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <hr>
+     <body>
+        <div class = "container-fluid">
+            <div class = "row">
+                <div class = "col-sm-12 col-md-8">
+                    <div class = "box main">
+                            <div class = "heading">
+                            <h1 class = "title">Latitude vs. Max Temperature</h1>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class = "box">
+                        <div class = "box_main">
+                            <img id = "viz-main" src = "Resources/Latitude v Max Temp.png"  alt= "Latitude v Max Temp">
+                            <p>Graph shows that max temperature increases as you get closer to the equator.</p>
+                            <p>It is interesting to note that the max temperature below the equator does not mimic
+                                the temperatures above the equator.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class = "col-sm-12 col-md-4">
+                    <div class = "box side">
+                        <div class ="heading">
+                            <h1 class = "title">Visualizations</h1>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class = "box">
+                        <a href ="maxtemp.html" title = "Latitude v Max Temp"><img id = "img_grid" src = "Resources/Latitude v Max Temp.png" width = 210 height =200 alt = "Latitude v Max Temp"></a>
+                        <a href = "Humidity.html"title = "Latitude v Humidity"><img id = "img_grid" src = "Resources/Latitude v Humidity.png" width = 210 height =200 alt = "Latitude v Humidity"></a>
+                        <a href = "Cloudiness.html"title = "Latitude v Cloudiness"><img id = "img_grid" src = "Resources/Latitude v Cloudiness.png" width = 210 height =200 alt = "Latitude v Cloudiness"></a>
+                        <a href = "Windspeed.html"title = "Latitude v Windspeed"><img id = "img_grid" src = "Resources/Latitude v Wind Speed.png" width = 210 height =200 alt = "Latitude v Wind Speed"></a>
+                    </div>
+                </div>
+            </div>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>
