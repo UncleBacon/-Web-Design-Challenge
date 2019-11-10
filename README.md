@@ -1,4 +1,5 @@
 <h1>Web-Design-Challenge</h1>
+
 <ol>
     <h2><li>Data Source</li></h2>
     <ul>
@@ -7,7 +8,7 @@
                 <li><a href = "https://github.com/UncleBacon/python-api-challenge/tree/master/WeatherPy">Link to WeatherPy repo</a></li>
             </ul>
     </ul>
-    <h2><li>Website Image></li></h2>
+    <h2><li>Website Images</li></h2>
     <ul>
         <h3><li>Landing Page</li></h3>
         <img src = "https://github.com/UncleBacon/Web-Design-Challenge/blob/master/Images/Landing_page.PNG" alt = "Landing Page title = "Landing Page>
