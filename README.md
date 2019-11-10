@@ -1,5 +1,5 @@
 <h1>Web-Design-Challenge</h1>
-<strong><a href = "https://unclebacon.github.io/Web-Design-Challenge/" target = "_blank">Link to Latitude site</a></strong>
+<strong><a href = "https://unclebacon.github.io/Web-Design-Challenge/" target="_blank">Link to Latitude site</a></strong>
 
 <ol>
     <h2><li>Data Source</li></h2>
